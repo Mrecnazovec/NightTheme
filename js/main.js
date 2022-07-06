@@ -51,3 +51,12 @@ window.addEventListener("scroll", function(e) {
         theme.classList.remove("fixed")
     }
 })
+window.addEventListener("DOMContentLoaded", (event) => {
+    let round = document.querySelector(".rounder")
+
+    setTimeout(() => {
+        round.style.opacity = "0"
+        round.style.height = "0px"
+        round.style.right = "-100vh"
+    }, 2000)
+})
