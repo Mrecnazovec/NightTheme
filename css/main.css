@@ -80,6 +80,10 @@
     .nav-link:hover {
         border-bottom: 2px solid #161513;
     }
+    
+    .nav-link.tocolorwhite:hover {
+        border-bottom: 2px solid #FFFFFF;
+    }
     /* mainOne */
     
     .mainOne {
